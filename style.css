@@ -125,10 +125,14 @@ main p {
 
 }
 
-.imagens {
-    margin: auto;
+#akuma {
+    max-width: 420px;
     display: block;
+    margin: auto;
+    
 }
+
+
 
 .imagens-gif {
     margin: auto;

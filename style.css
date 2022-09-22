@@ -39,6 +39,7 @@
     font-weight: 700;
     font-size: 2.5em;
     text-align: center;
+    
 }
 
 .cabecalho__texto {
@@ -46,4 +47,19 @@
     font-size: 1.2em;
     text-align: center;
     color: var(--cor3);
+   
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #80030e;
+    box-shadow: -4px 5px 4px 1px rgba(0, 0, 0, 0.397);
+    margin-bottom: 30px;
+}
+
+.menu__ancora {
+    color: var(--cor3);
+    text-decoration: none;
+    padding: 0 20px 20px 20px;
 }

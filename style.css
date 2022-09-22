@@ -27,91 +27,23 @@
     font-family: var(--fonte-padrao);
 }
 
-body {
-    background-color:#3098FF;
-}
-
-header {
+.cabecalho {
     background-image: linear-gradient(to bottom, red, var(--cor2), var(--cor5) );
-    padding: 40px;
+    padding: 3.5em 0;
     
-   
 }
 
-header h1 {
-    margin: auto;
-    text-align: center;
-    color: #F0D53F;
-    padding-bottom: 10px;
+.cabecalho__titulo {
+    color: var(--cor3);
     font-family: var(--fonte-destaque);
+    font-weight: 700;
+    font-size: 2.5em;
+    text-align: center;
 }
 
-
-header p {
-    text-align: center;
-    margin: auto;
-    color: #F0D53F;
+.cabecalho__texto {
     font-family: var(--fonte-destaque);
     font-size: 1.2em;
-
-}
-
-nav {
-    background-color: var(--cor5);
-    padding-bottom: 15px;
-    box-shadow: -5px 4px 3px 1px rgba(0, 0, 0, 0.521) ;
-    
-}
-
-
-nav a {
-    text-decoration: none;
-    padding: 20px;
-    color: #F0D53F;
-    font-family: var(--fonte-destaque);
-}
-
-nav a:hover {
-    text-decoration: underline;
-    color: var(--cor2);
-}
-
-main {
-    background-color: var(--cor0);
-    margin: 10px 30px 10px 30px;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-
-main > article > h1 , h2{
-    background-image: linear-gradient(to right,#3097ff94, var(--cor0) );
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: var(--fonte-destaque);
-}
-
-
-main p{
-    font-family: var(--fonte-arima);
-    text-indent: 30px;
-}
-
-section h3 {
-    background-image: linear-gradient( to right, #8b7c24, #f3d320, var(--cor0));
-    font-family: var(--fonte-arima);
-    font-size: 1.5em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-section h4 {
-    font-family: var(--fonte-arima);
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-section li {
-    font-family: var(--fonte-arima);
-
+    text-align: center;
+    color: var(--cor3);
 }
